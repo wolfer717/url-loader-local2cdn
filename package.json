@@ -1,0 +1,41 @@
+{
+  "name": "url-loader-local2cdn",
+  "version": "1.1.5",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "author": "Tobias Koppers @sokra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://v.src.corp.qihoo.net/Safe-Client/mobilesafe-url-loader-local2cdn.git"
+  },
+  "bugs": {
+    "url": "https://v.src.corp.qihoo.net/Safe-Client/mobilesafe-url-loader-local2cdn/issues"
+  },
+  "homepage": "https://v.src.corp.qihoo.net/Safe-Client/mobilesafe-url-loader-local2cdn",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "file-loader": "^0.11.0"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "form-data": "^2.3.1",
+    "loader-utils": "^1.1.0",
+    "mime": "^1.4.0",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "typescript": "^2.5.2"
+  },
+  "peerDependencies": {
+    "file-loader": "*"
+  }
+}
